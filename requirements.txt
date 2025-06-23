@@ -1,0 +1,5 @@
+pip install kaggle
+pip install kagglehub[pandas-datasets]
+pip install pandas sqlalchemy python-dotenv psycopg2 kaggle
+pip install pg8000
+

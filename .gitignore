@@ -1,0 +1,7 @@
+secrets_config.py
+*.env
+*kaggle_data
+secrets_config.cpython-312.pyc
+standalone_admin_password.txt
+
+logs/
