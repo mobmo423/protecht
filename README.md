@@ -16,6 +16,7 @@ momentum_consistency: % of days that are part of upward streaks of 3+ days.
 
 Cluster logic is simple threshold-based.
 
-cd airflow/dags
+cd airflow
 docker build -t protecht-airflow .
 docker run -p 8080:8080 -v "%cd%:/opt/airflow" protecht-airflow airflow standalone
+
